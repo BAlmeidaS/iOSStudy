@@ -4,7 +4,7 @@ import UIKit
 
 var str = "Hello, playground"
 
-var number = 20
+var number = 20; var bigDecimal2 = 50.05
 
 //var eh uma variable
 var decimal = 50.5
@@ -23,3 +23,7 @@ var red, green, blue: Double
 
 red = 50
 green = 50.05
+
+for var x=0; i<20; i++{
+    
+}
