@@ -33,6 +33,9 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jkc-ka-JKL">
                                 <rect key="frame" x="156" y="319" width="63" height="30"/>
                                 <state key="normal" title="Hide Red"/>
+                                <connections>
+                                    <action selector="hideRedImage:" destination="BYZ-38-t0r" eventType="touchUpInside" id="isG-JB-kJI"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>

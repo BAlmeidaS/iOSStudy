@@ -29,6 +29,9 @@ class ViewController: UIViewController {
         blueImage.hidden = !blueImage.hidden
         //blueButton.setTitle("unhide Blue", forState: .Normal)
     }
+    @IBAction func hideRedImage(sender: UIButton) {
+        redImage.hidden = !redImage.hidden
+    }
 
 }
 
